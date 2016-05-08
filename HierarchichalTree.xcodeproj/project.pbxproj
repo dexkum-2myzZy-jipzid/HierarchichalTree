@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D8395431CDE5E5100583D59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8395421CDE5E5100583D59 /* main.m */; };
+		3D8395461CDE5E5100583D59 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8395451CDE5E5100583D59 /* AppDelegate.m */; };
+		3D83954C1CDE5E5100583D59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D83954A1CDE5E5100583D59 /* Main.storyboard */; };
+		3D83954E1CDE5E5100583D59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D83954D1CDE5E5100583D59 /* Assets.xcassets */; };
+		3D8395511CDE5E5100583D59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D83954F1CDE5E5100583D59 /* LaunchScreen.storyboard */; };
+		3D83955C1CDE5E5100583D59 /* HierarchichalTreeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D83955B1CDE5E5100583D59 /* HierarchichalTreeTests.m */; };
+		3D8395671CDE5E5100583D59 /* HierarchichalTreeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8395661CDE5E5100583D59 /* HierarchichalTreeUITests.m */; };
+		3D8395761CDE5EA000583D59 /* CLCustomLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8395751CDE5EA000583D59 /* CLCustomLayout.m */; };
+		3D8395791CDE611100583D59 /* CLCollectionViewLayoutAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8395781CDE611100583D59 /* CLCollectionViewLayoutAttributes.m */; };
+		3D83957C1CDF04F200583D59 /* CLCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D83957B1CDF04F200583D59 /* CLCollectionViewController.m */; };
+		3D83957F1CDF065600583D59 /* CLCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D83957E1CDF065600583D59 /* CLCollectionViewCell.m */; };
+		3D8395861CDF6C5500583D59 /* CLHCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8395851CDF6C5500583D59 /* CLHCollectionReusableView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D8395581CDE5E5100583D59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D8395361CDE5E5100583D59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D83953D1CDE5E5100583D59;
+			remoteInfo = HierarchichalTree;
+		};
+		3D8395631CDE5E5100583D59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D8395361CDE5E5100583D59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D83953D1CDE5E5100583D59;
+			remoteInfo = HierarchichalTree;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D83953E1CDE5E5100583D59 /* HierarchichalTree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HierarchichalTree.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D8395421CDE5E5100583D59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D8395441CDE5E5100583D59 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3D8395451CDE5E5100583D59 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3D83954B1CDE5E5100583D59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D83954D1CDE5E5100583D59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D8395501CDE5E5100583D59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D8395521CDE5E5100583D59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D8395571CDE5E5100583D59 /* HierarchichalTreeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HierarchichalTreeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D83955B1CDE5E5100583D59 /* HierarchichalTreeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HierarchichalTreeTests.m; sourceTree = "<group>"; };
+		3D83955D1CDE5E5100583D59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D8395621CDE5E5100583D59 /* HierarchichalTreeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HierarchichalTreeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D8395661CDE5E5100583D59 /* HierarchichalTreeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HierarchichalTreeUITests.m; sourceTree = "<group>"; };
+		3D8395681CDE5E5100583D59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D8395741CDE5EA000583D59 /* CLCustomLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLCustomLayout.h; sourceTree = "<group>"; };
+		3D8395751CDE5EA000583D59 /* CLCustomLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLCustomLayout.m; sourceTree = "<group>"; };
+		3D8395771CDE611100583D59 /* CLCollectionViewLayoutAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLCollectionViewLayoutAttributes.h; sourceTree = "<group>"; };
+		3D8395781CDE611100583D59 /* CLCollectionViewLayoutAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLCollectionViewLayoutAttributes.m; sourceTree = "<group>"; };
+		3D83957A1CDF04F200583D59 /* CLCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLCollectionViewController.h; sourceTree = "<group>"; };
+		3D83957B1CDF04F200583D59 /* CLCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLCollectionViewController.m; sourceTree = "<group>"; };
+		3D83957D1CDF065600583D59 /* CLCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLCollectionViewCell.h; sourceTree = "<group>"; };
+		3D83957E1CDF065600583D59 /* CLCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLCollectionViewCell.m; sourceTree = "<group>"; };
+		3D8395841CDF6C5500583D59 /* CLHCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLHCollectionReusableView.h; sourceTree = "<group>"; };
+		3D8395851CDF6C5500583D59 /* CLHCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLHCollectionReusableView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D83953B1CDE5E5100583D59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D8395541CDE5E5100583D59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D83955F1CDE5E5100583D59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D8395351CDE5E5100583D59 = {
+			isa = PBXGroup;
+			children = (
+				3D8395401CDE5E5100583D59 /* HierarchichalTree */,
+				3D83955A1CDE5E5100583D59 /* HierarchichalTreeTests */,
+				3D8395651CDE5E5100583D59 /* HierarchichalTreeUITests */,
+				3D83953F1CDE5E5100583D59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D83953F1CDE5E5100583D59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D83953E1CDE5E5100583D59 /* HierarchichalTree.app */,
+				3D8395571CDE5E5100583D59 /* HierarchichalTreeTests.xctest */,
+				3D8395621CDE5E5100583D59 /* HierarchichalTreeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D8395401CDE5E5100583D59 /* HierarchichalTree */ = {
+			isa = PBXGroup;
+			children = (
+				3D8395441CDE5E5100583D59 /* AppDelegate.h */,
+				3D8395451CDE5E5100583D59 /* AppDelegate.m */,
+				3D83957A1CDF04F200583D59 /* CLCollectionViewController.h */,
+				3D83957B1CDF04F200583D59 /* CLCollectionViewController.m */,
+				3D83957D1CDF065600583D59 /* CLCollectionViewCell.h */,
+				3D83957E1CDF065600583D59 /* CLCollectionViewCell.m */,
+				3D8395841CDF6C5500583D59 /* CLHCollectionReusableView.h */,
+				3D8395851CDF6C5500583D59 /* CLHCollectionReusableView.m */,
+				3D8395741CDE5EA000583D59 /* CLCustomLayout.h */,
+				3D8395751CDE5EA000583D59 /* CLCustomLayout.m */,
+				3D8395771CDE611100583D59 /* CLCollectionViewLayoutAttributes.h */,
+				3D8395781CDE611100583D59 /* CLCollectionViewLayoutAttributes.m */,
+				3D83954A1CDE5E5100583D59 /* Main.storyboard */,
+				3D83954D1CDE5E5100583D59 /* Assets.xcassets */,
+				3D83954F1CDE5E5100583D59 /* LaunchScreen.storyboard */,
+				3D8395521CDE5E5100583D59 /* Info.plist */,
+				3D8395411CDE5E5100583D59 /* Supporting Files */,
+			);
+			path = HierarchichalTree;
+			sourceTree = "<group>";
+		};
+		3D8395411CDE5E5100583D59 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D8395421CDE5E5100583D59 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D83955A1CDE5E5100583D59 /* HierarchichalTreeTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D83955B1CDE5E5100583D59 /* HierarchichalTreeTests.m */,
+				3D83955D1CDE5E5100583D59 /* Info.plist */,
+			);
+			path = HierarchichalTreeTests;
+			sourceTree = "<group>";
+		};
+		3D8395651CDE5E5100583D59 /* HierarchichalTreeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3D8395661CDE5E5100583D59 /* HierarchichalTreeUITests.m */,
+				3D8395681CDE5E5100583D59 /* Info.plist */,
+			);
+			path = HierarchichalTreeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D83953D1CDE5E5100583D59 /* HierarchichalTree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D83956B1CDE5E5100583D59 /* Build configuration list for PBXNativeTarget "HierarchichalTree" */;
+			buildPhases = (
+				3D83953A1CDE5E5100583D59 /* Sources */,
+				3D83953B1CDE5E5100583D59 /* Frameworks */,
+				3D83953C1CDE5E5100583D59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HierarchichalTree;
+			productName = HierarchichalTree;
+			productReference = 3D83953E1CDE5E5100583D59 /* HierarchichalTree.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D8395561CDE5E5100583D59 /* HierarchichalTreeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D83956E1CDE5E5100583D59 /* Build configuration list for PBXNativeTarget "HierarchichalTreeTests" */;
+			buildPhases = (
+				3D8395531CDE5E5100583D59 /* Sources */,
+				3D8395541CDE5E5100583D59 /* Frameworks */,
+				3D8395551CDE5E5100583D59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D8395591CDE5E5100583D59 /* PBXTargetDependency */,
+			);
+			name = HierarchichalTreeTests;
+			productName = HierarchichalTreeTests;
+			productReference = 3D8395571CDE5E5100583D59 /* HierarchichalTreeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3D8395611CDE5E5100583D59 /* HierarchichalTreeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D8395711CDE5E5100583D59 /* Build configuration list for PBXNativeTarget "HierarchichalTreeUITests" */;
+			buildPhases = (
+				3D83955E1CDE5E5100583D59 /* Sources */,
+				3D83955F1CDE5E5100583D59 /* Frameworks */,
+				3D8395601CDE5E5100583D59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D8395641CDE5E5100583D59 /* PBXTargetDependency */,
+			);
+			name = HierarchichalTreeUITests;
+			productName = HierarchichalTreeUITests;
+			productReference = 3D8395621CDE5E5100583D59 /* HierarchichalTreeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D8395361CDE5E5100583D59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = JackChan;
+				TargetAttributes = {
+					3D83953D1CDE5E5100583D59 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					3D8395561CDE5E5100583D59 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 3D83953D1CDE5E5100583D59;
+					};
+					3D8395611CDE5E5100583D59 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 3D83953D1CDE5E5100583D59;
+					};
+				};
+			};
+			buildConfigurationList = 3D8395391CDE5E5100583D59 /* Build configuration list for PBXProject "HierarchichalTree" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D8395351CDE5E5100583D59;
+			productRefGroup = 3D83953F1CDE5E5100583D59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D83953D1CDE5E5100583D59 /* HierarchichalTree */,
+				3D8395561CDE5E5100583D59 /* HierarchichalTreeTests */,
+				3D8395611CDE5E5100583D59 /* HierarchichalTreeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D83953C1CDE5E5100583D59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D8395511CDE5E5100583D59 /* LaunchScreen.storyboard in Resources */,
+				3D83954E1CDE5E5100583D59 /* Assets.xcassets in Resources */,
+				3D83954C1CDE5E5100583D59 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D8395551CDE5E5100583D59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D8395601CDE5E5100583D59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D83953A1CDE5E5100583D59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D8395861CDF6C5500583D59 /* CLHCollectionReusableView.m in Sources */,
+				3D8395791CDE611100583D59 /* CLCollectionViewLayoutAttributes.m in Sources */,
+				3D8395461CDE5E5100583D59 /* AppDelegate.m in Sources */,
+				3D83957C1CDF04F200583D59 /* CLCollectionViewController.m in Sources */,
+				3D8395431CDE5E5100583D59 /* main.m in Sources */,
+				3D8395761CDE5EA000583D59 /* CLCustomLayout.m in Sources */,
+				3D83957F1CDF065600583D59 /* CLCollectionViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D8395531CDE5E5100583D59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D83955C1CDE5E5100583D59 /* HierarchichalTreeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D83955E1CDE5E5100583D59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D8395671CDE5E5100583D59 /* HierarchichalTreeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D8395591CDE5E5100583D59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D83953D1CDE5E5100583D59 /* HierarchichalTree */;
+			targetProxy = 3D8395581CDE5E5100583D59 /* PBXContainerItemProxy */;
+		};
+		3D8395641CDE5E5100583D59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D83953D1CDE5E5100583D59 /* HierarchichalTree */;
+			targetProxy = 3D8395631CDE5E5100583D59 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D83954A1CDE5E5100583D59 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D83954B1CDE5E5100583D59 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D83954F1CDE5E5100583D59 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D8395501CDE5E5100583D59 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D8395691CDE5E5100583D59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3D83956A1CDE5E5100583D59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D83956C1CDE5E5100583D59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = HierarchichalTree/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChanStudio.HierarchichalTree;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3D83956D1CDE5E5100583D59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = HierarchichalTree/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChanStudio.HierarchichalTree;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3D83956F1CDE5E5100583D59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HierarchichalTreeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChanStudio.HierarchichalTreeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HierarchichalTree.app/HierarchichalTree";
+			};
+			name = Debug;
+		};
+		3D8395701CDE5E5100583D59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HierarchichalTreeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChanStudio.HierarchichalTreeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HierarchichalTree.app/HierarchichalTree";
+			};
+			name = Release;
+		};
+		3D8395721CDE5E5100583D59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HierarchichalTreeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChanStudio.HierarchichalTreeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HierarchichalTree;
+			};
+			name = Debug;
+		};
+		3D8395731CDE5E5100583D59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HierarchichalTreeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ChanStudio.HierarchichalTreeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HierarchichalTree;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D8395391CDE5E5100583D59 /* Build configuration list for PBXProject "HierarchichalTree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D8395691CDE5E5100583D59 /* Debug */,
+				3D83956A1CDE5E5100583D59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D83956B1CDE5E5100583D59 /* Build configuration list for PBXNativeTarget "HierarchichalTree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D83956C1CDE5E5100583D59 /* Debug */,
+				3D83956D1CDE5E5100583D59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3D83956E1CDE5E5100583D59 /* Build configuration list for PBXNativeTarget "HierarchichalTreeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D83956F1CDE5E5100583D59 /* Debug */,
+				3D8395701CDE5E5100583D59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3D8395711CDE5E5100583D59 /* Build configuration list for PBXNativeTarget "HierarchichalTreeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D8395721CDE5E5100583D59 /* Debug */,
+				3D8395731CDE5E5100583D59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D8395361CDE5E5100583D59 /* Project object */;
+}
